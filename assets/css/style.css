@@ -10,6 +10,10 @@
     background-color: #fff;
 }
 
+.bg-color-personal-info {
+    background-color: #f4f4f4;
+}
+
 .ui-menu-color-home {
     background-color: #e67e22;
 }
@@ -26,7 +30,24 @@
     background-color: #525252;
 }
 
-/*--------------------------------------------Special paddings/margins/text */
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+/* ----------------------------------------Special paddings/margins/text */
 
 h1,
 h2,
@@ -40,7 +61,7 @@ h4 {
 }
 
 .general-sub {
-    font: "Exo", sans-serif;
+    font-family: "Exo", sans-serif;
     font-weight: 300;
     color: #fafafa;
 }
@@ -87,7 +108,6 @@ header {
     -webkit-transition: all .5s ease-in-out;
 }
 
-
 .name {
     font-family: "Exo", sans-serif;
     font-weight: 100;
@@ -113,13 +133,13 @@ header {
     font-size: 0;
 }
 
-#nav {
-    margin: 0;
-}
-
 #nav li {
     font-size: 14px;
     padding: 0;
+}
+
+#nav {
+    margin: 0;
 }
 
 .menuitem {
@@ -160,7 +180,7 @@ header {
     height: 120px;
 }
 
-/*--------------------------------------------Footer*/
+/* ----------------------------------------Footer */
 
 footer {
     background-color: #525252;
@@ -210,4 +230,15 @@ footer {
 
 #footer-details {
     padding: 20px;
+}
+
+/* ----------------------------------------Three Reasons */
+
+.three-reasons-icon {
+    font-size: 26px;
+    color: #e67e22;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
 }
