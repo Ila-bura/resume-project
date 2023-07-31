@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
 
 body {
     font-family: 'Borel', cursive;
@@ -6,11 +6,13 @@ body {
 
 /* Containers */
 
-.quotes-container,
-.features-container {
+.quotes-container {
     background-color: white;
 
+
 }
+
+
 
 .callout-container {
     height: 100vh;
@@ -65,4 +67,52 @@ body {
     width: 100%;
     background-color: rgba(0, 0, 0, .25);
     border: 0;
+}
+
+
+
+.container-wrapper {
+    background-color: #7C5C00;
+    font: white;
+}
+
+/* Content Container */
+
+.content-container {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 35px;
+}
+
+.logo {
+    background: url("../images/kombucha.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 280px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.bg-color-title {
+    background-color: aqua;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+/* Headings */
+
+.heading {
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+.call-to-action {
+    font-weight: 100;
+    font-size: 46px;
+}
+
+.social-call {
+    text-decoration: underline;
 }
